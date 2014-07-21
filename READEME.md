@@ -1,5 +1,5 @@
 ## some usefull website
-	- 
+	- http://www.92csz.com/study/linux/      linux 入门教程
 	- 
 
 ## how to create linux partition
