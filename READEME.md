@@ -1,12 +1,12 @@
-## some usefull website
-	- http://www.92csz.com/study/linux/      linux 入门教程
+## Some usefull website
+	- [linux 入门教程](http://www.92csz.com/study/linux/)
 	- 
 
-## how to create linux partition
+## How to create linux partition
 ```sh
 /         （这就是著名的根）
 ├── bin         (你在终端运行的大多数程序，比如cp、mv...)
-├── boot         (内核放在这里，这个目录也经常被作为某个独立分区的挂载点)
+├── boot         (内核放在这里，这个目录也经常被作为某个独立分区的挂载点)(10%)
 │   └── grub   (grub引导程序和引导菜单就放在这里)
 ├── cdrom
 ├── dev         (存放设备文件，这里相当于一个设备管理器，由系统自动生成。视硬件环境不同变化很大)
@@ -27,7 +27,7 @@
 │   ├── shm
 │   └── snd
 ├── etc         (存放所有程序和系统的配制文件和全局变量，对所有用户生效，非常值得备份)
-├── home         (这就是著名的home目录了，注意不是”家目录”，强烈建议把一个独立分区挂载到这里！)
+├── home         (这就是著名的home目录了，注意不是”家目录”，强烈建议把一个独立分区挂载到这里！)(50%)
 │   ├── adagio   (这才是我真正的家！一般来说目录名就是帐号名，当然也可以不是，随便。命令行中用波浪线～代表这里)
 │   ├── MNT      (这是我挂载其它硬盘分区的地方，你可以看到用硬盘品牌、容量或用途区分的目录名)
 │   │   ├── MAX40NT1   (迈拓40G)
