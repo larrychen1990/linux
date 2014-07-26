@@ -1,7 +1,7 @@
 ## some usefull website
 	- http://www.92csz.com/study/linux/      linux 入门教程
 	- 
-
+```sh
 ## how to create linux partition
 /         （这就是著名的根）
 ├── bin         (你在终端运行的大多数程序，比如cp、mv...)
@@ -82,3 +82,4 @@
     ├── run
     ├── spool
     └── tmp
+```
