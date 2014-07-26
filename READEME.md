@@ -1,8 +1,9 @@
 ## some usefull website
 	- http://www.92csz.com/study/linux/      linux 入门教程
 	- 
-```sh
+
 ## how to create linux partition
+```sh
 /         （这就是著名的根）
 ├── bin         (你在终端运行的大多数程序，比如cp、mv...)
 ├── boot         (内核放在这里，这个目录也经常被作为某个独立分区的挂载点)
