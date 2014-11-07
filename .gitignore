@@ -1,6 +1,0 @@
-/target/
-.classpath
-!/target/*.h
-.project
-.git/
-.settings/
